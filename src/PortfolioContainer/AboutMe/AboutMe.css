@@ -1,0 +1,126 @@
+.about-section {
+    background-color: #fff;
+    color: #0b1622;
+    padding: 100px 10%;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0b1622;
+  }
+  
+  .about-subtitle {
+    color: #ff7043;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  
+  .divider {
+    width: 60px;
+    height: 4px;
+    background-color: #ff7043;
+    border-radius: 5px;
+    margin: 12px auto 40px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-img {
+    width: 320px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-right {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  .about-highlights h4 {
+    margin-bottom: 10px;
+    color: #0b1622;
+  }
+  
+  .about-highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-highlights li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+  
+  .about-buttons {
+    margin-top: 30px;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .hire-btn {
+    background-color: transparent;
+    border: 2px solid #ff7043;
+    color: #ff7043;
+    margin-right: 15px;
+  }
+  
+  .hire-btn:hover {
+    background-color: #ff7043;
+    color: #fff;
+  }
+  
+  .resume-btn {
+    background-color: #ff7043;
+    color: #fff;
+    border: 2px solid #ff7043;
+  }
+  
+  .resume-btn:hover {
+    background-color: transparent;
+    color: #ff7043;
+  }
+  
+  @media (max-width: 900px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-right {
+      text-align: center;
+    }
+  
+    .about-img {
+      width: 260px;
+    }
+  }
+  
