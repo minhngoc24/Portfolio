@@ -52,7 +52,7 @@ export default function Profile() {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/in/minhngocle"
+              href="https://www.linkedin.com/in/minhngoc24/"
               target="_blank"
               rel="noreferrer"
             >
