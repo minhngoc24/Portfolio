@@ -28,11 +28,11 @@ export default function Profile() {
           setSent(true);
           setShowForm(false);
           setEmail("");
-          alert("✅ Resume has been sent to your email!");
+          alert("Resume has been sent to your email!");
         },
         (err) => {
           console.error("FAILED...", err);
-          alert("❌ Failed to send resume.");
+          alert("Failed to send resume.");
         }
       );
   };
@@ -62,16 +62,12 @@ export default function Profile() {
 
           <h1>
             Hello, I’m <span className="highlight">Minh Ngoc Le</span>
+            <p></p>
           </h1>
-          <h3>Full-Stack Developer | Data & AI Enthusiast</h3>
-          <p>
-            Passionate about building scalable applications with secure backend
-            systems and engaging front-end experiences.
-          </p>
 
           <div className="home-buttons">
             <a href="#contact" className="btn hire-btn">
-              Hire Me
+              Contact Me
             </a>
             <button
               className="btn resume-btn"

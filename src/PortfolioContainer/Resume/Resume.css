@@ -130,6 +130,33 @@
     border-bottom: 1px solid #eee;
     color: #333;
   }
+
+  .project-link {
+    color: #ff6600;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    color: #e85b00;
+    text-decoration: underline;
+  }
+  
+  .highlight-project {
+    animation: glow 1.2s ease-in-out;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 0px rgba(255, 102, 0, 0);
+    }
+    50% {
+      box-shadow: 0 0 18px rgba(255, 102, 0, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 0px rgba(255, 102, 0, 0);
+    }
+  }
   
   /* --- RESPONSIVE --- */
   @media (max-width: 900px) {

@@ -1,6 +1,6 @@
 
 .home-container {
-    background-color: #ffcfe7;
+    background-color: #0b1622;
     color: #f8fafc;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
   }
   
   p {
-    color: #06192c !important;; 
+    color: #193958 !important;; 
     opacity: 1 !important;
     font-size: 1rem;
     line-height: 1.7;

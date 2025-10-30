@@ -27,11 +27,11 @@ export default function About() {
           setSent(true);
           setShowForm(false);
           setEmail("");
-          alert("✅ Resume has been sent to your email!");
+          alert("Resume has been sent to your email!");
         },
         (err) => {
-          console.error("❌ FAILED...", err);
-          alert("❌ Failed to send resume. Check console for details!");
+          console.error("FAILED...", err);
+          alert("Failed to send resume. Check console for details!");
         }
       );
   };
@@ -43,30 +43,17 @@ export default function About() {
       <div className="divider"></div>
 
       <div className="about-content">
-        {/* LEFT SIDE */}
+      
         <div className="about-left">
           <img src="Aboutme.JPG" alt="Minh Ngoc Le" className="about-img" />
         </div>
 
-        {/* RIGHT SIDE */}
+       
         <div className="about-right">
           <p className="about-text">
-            Hi! I’m <strong>Minh Ngoc Le</strong> — a student who loves turning
-            ideas into real, interactive web experiences. I enjoy building
-            websites and small projects that combine clean design, simple UI,
-            and logical code.
+            Hi! I’m <strong>Minh Ngoc Le</strong> —I am a junior at Rhodes College, currently pursuing a major in Computer Science. With a passion for technology and problem-solving, I am eager to deepen my understanding of software development, data structures, and algorithms. My academic journey so far has equipped me with a solid foundation in computer science principles, and I am excited to continue expanding my skills through coursework, projects, and internships.
+            I am always open to connecting with professionals in the field and exploring opportunities that will allow me to apply my knowledge and grow as a computer scientist. Feel free to reach out if you'd like to connect or discuss potential collaborations.
           </p>
-
-          <div className="about-highlights">
-            <h4>Things I work with:</h4>
-            <ul>
-              <li>💻 React.js & JavaScript</li>
-              <li>🎨 HTML, CSS, Tailwind</li>
-              <li>⚙️ Node.js & Express</li>
-              <li>☁️ Firebase / MongoDB basics</li>
-              <li>📱 Android (Kotlin)</li>
-            </ul>
-          </div>
 
           <div className="about-buttons">
             <a href="#contact" className="btn hire-btn">

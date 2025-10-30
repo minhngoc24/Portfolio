@@ -33,7 +33,6 @@ export default function Contact() {
   return (
     <section className="contact-section" id="contact">
       <h2 className="title">Contact Me</h2>
-      <p className="subtitle">Let’s Keep in Touch</p>
       <div className="underline"></div>
 
       <div className="contact-container">
@@ -63,7 +62,7 @@ export default function Contact() {
           ></textarea>
 
           <button type="submit" className="send-btn">
-            {status === "sending" ? "Sending..." : "Send ✈️"}
+            {status === "sending" ? "Sending..." : "Send"}
           </button>
 
           {status === "success" && (
