@@ -48,7 +48,9 @@ export default function Resume() {
             </div>
             <div className="resume-item">
               <h3>RHOK-SAT CubeSat Fellowship</h3>
-              <p>Software Engineer — React, REST APIs, C++, Python, PostgreSQL</p>
+              <p>
+                Software Engineer — React, REST APIs, C++, Python, PostgreSQL
+              </p>
               <span className="year">June 2025 – Aug 2025</span>
             </div>
             <div className="resume-item">
@@ -92,6 +94,7 @@ export default function Resume() {
       case "projects":
         return (
           <div className="resume-details">
+            {/* Beezy */}
             <div className="resume-item">
               <h3
                 className="project-link"
@@ -104,6 +107,7 @@ export default function Resume() {
               </p>
             </div>
 
+            {/* HealthPocket */}
             <div className="resume-item">
               <h3
                 className="project-link"
@@ -114,17 +118,28 @@ export default function Resume() {
               <p>Kotlin, Node.js + Express, Azure, AES-GCM Encryption</p>
             </div>
 
-
+            {/* ✅ FitLife project (new) */}
             <div className="resume-item">
               <h3
                 className="project-link"
-                onClick={() => scrollToProject("hopegrow")}
+                onClick={() => scrollToProject("fitlife")}
+              >
+                FitLife – Smart Gym Finder App
+              </h3>
+              <p>
+                Python, NiceGUI, PostgreSQL, psycopg3, FastAPI, TailwindCSS
+              </p>
+            </div>
+
+            {/* HopeGlow */}
+            <div className="resume-item">
+              <h3
+                className="project-link"
+                onClick={() => scrollToProject("hopeglo")}
               >
                 HopeGlow – Donation App
               </h3>
-              <p>
-                HTML, CSS, JavaScript, Python, Google Map API, Firebase
-              </p>
+              <p>HTML, CSS, JavaScript, Python, Google Map API, Firebase</p>
             </div>
           </div>
         );

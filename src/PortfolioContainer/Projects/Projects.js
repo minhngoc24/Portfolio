@@ -47,25 +47,44 @@ export default function Projects() {
         },
       ],
     },
+    
     {
-      id: "hopegrow",
+      id: "hopeglow",
       title: "✨ HopeGlow – Donation Matching App",
       tech: "HTML, CSS, JavaScript, Python, Google Maps API, Firebase",
       description:
         "A web app connecting donors and charities with distance-based search and AI item classification for faster matching.",
       features: [
         {
-          img: "projects/hopeglow/hopeglow-feature1.png",
+          img: "/projects/hopeglow/hopeglow-feature1.png",
           caption: "AI-generated item description for donations",
         },
         {
           img: "projects/hopeglow/hopeglow-feature2.png",
-          caption: "Show maps when enter address",
+          caption: "Show maps when entering address",
         },
         {
           img: "projects/hopeglow/hopeglow-feature3.png",
           caption: "Sort items based on distance",
         },
+      ],
+    },
+    {
+      id: "fitlife",
+      title: "💪 FitLife – Smart Gym Finder App",
+      tech: "Python, NiceGUI, PostgreSQL, psycopg3, FastAPI, TailwindCSS",
+      description:
+        "A full-stack fitness web app that lets users explore nearby gyms, personal trainers, and healthy meal plans. Features secure login, SQL-based recommendations, and dynamic dashboards built with NiceGUI.",
+      features: [
+        {
+          img: "projects/fitlife/fitlife-feature2.png",
+          caption: "Meal Recommendation",
+        },
+        {
+          img: "projects/fitlife/fitlife-feature3.png",
+          caption: "Find and Match PT",
+        },
+       
       ],
     },
   ];
